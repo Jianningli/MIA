@@ -5,8 +5,7 @@ The deep learning model scans the entire skull in a (3D) patch-wise manner. When
 ![example](https://github.com/li-jianning/patch-based-skull-completion/blob/master/images/patch-wise.gif)
 
 
-* ## learnt feature interpretation for volumetric shape completion
-
+* ## interpretation of learnt features for volumetric shape completion
 
 ![example](https://github.com/li-jianning/patch-based-skull-completion/blob/master/images/features.png)
 
