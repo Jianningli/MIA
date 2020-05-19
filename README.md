@@ -7,5 +7,6 @@
 ![example](https://github.com/li-jianning/patch-based-skull-completion/blob/master/images/patch-wise.gif)
 
 * ## patch-wise direct implant generation
+  the missing part (i.e., the implant) can also be predicted directly without reconstructing the original 
   the deep learning model scans the entire skull in a (3D) patch-wise manner. 
 ![example](https://github.com/li-jianning/patch-based-skull-completion/blob/master/images/patch-wise-implant.gif)
