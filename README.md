@@ -12,14 +12,28 @@ The deep learning model is trained to perform the following actions:
 2. if patch contains no defected region:
 3.     output the input
 4. if patch contains the defected region:
-5.     output the input and the missing part      
+5.     output the input and the missing part 
+6. scan complete
+7. patch stitched together
+8. output: completed skull
 ```
 
 ![example](https://github.com/li-jianning/patch-based-skull-completion/blob/master/images/patch-wise.gif)
 
 
 * ## patch-wise direct implant generation
-The missing part (i.e., the implant) can also be predicted directly without reconstructing the original skull. Unlike the skull shape  completion which predicts the complete skull first and then subtracts the input to obtain the implant, direct implant generation allows prediction of the implant directly given a defective skull. Similarly, the deep learning model (trained differently from the shape completion model) scans the entire skull in a (3D) patch-wise manner. When the 3D patch contains no defected region, the model output zero (the background value). When the patch contains the defected region (e.g., the middle four patches), the model reconstructs only the missing region of the input patch. The output is the implant. 
+The missing part (i.e., the implant) can also be predicted directly without reconstructing the original skull.
+
+```
+1. scan the entire skull in a (3D) patch-wise manner
+2. if patch contains no defected region:
+3.     output an empty (all 0) patch 
+4. if patch contains the defected region:
+5.     output only the missing part 
+6. scan complete
+7. patch stitched together
+8. output:  implant
+```
   
 ![example](https://github.com/li-jianning/patch-based-skull-completion/blob/master/images/patch-wise-implant.gif)
 
