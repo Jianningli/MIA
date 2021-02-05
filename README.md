@@ -22,7 +22,7 @@ The deep learning model is trained to perform the following actions:
 
 
 * ## patch-wise direct implant generation
-The missing part (i.e., the implant) can also be predicted directly without reconstructing the original skull.
+The missing part (i.e., the implant) can also be predicted directly without reconstructing the original skull, if the deep learning models are trained with the implants as output.
 
 ```
 1. scan the entire skull in a (3D) patch-wise manner
@@ -39,6 +39,7 @@ The missing part (i.e., the implant) can also be predicted directly without reco
 
 
 * ## interpretation of learnt features for volumetric shape completion
-For better visualization, the 3D patch as well as the 3D feature maps are projected into a 2D plane. The features learnt by a deep learning model for the volumetric shape completion task are human interpretable. 
+For better visualization, the 3D patch as well as the 3D feature maps are projected into a 2D plane.
+The features learnt by a deep learning model for the volumetric shape completion task are interpretable and consistent. 
 
 ![example](https://github.com/li-jianning/patch-based-skull-completion/blob/master/images/features.png)
