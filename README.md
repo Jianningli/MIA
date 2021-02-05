@@ -1,5 +1,3 @@
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=pt-jw8nXzgs&feature=youtu.be)
-
 [![Everything Is AWESOME](https://github.com/Jianningli/MIA/blob/add-license-1/images/youtube.PNG)](https://www.youtube.com/watch?v=pt-jw8nXzgs&feature=youtu.be "Everything Is AWESOME")
 
 * ## patch-wise skull completion
