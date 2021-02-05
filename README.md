@@ -7,11 +7,6 @@
 
 The deep learning model is trained to perform the following actions:
 
-|Demo                       |  Yooutube Tutorial      |
-|:-------------------------:|:-------------------------:| 
-|1. scan the entire skull in a (3D) patch-wise manner <br />   2. if patch contains no defected region: <br /> 3.     output the input  <br /> 4. if patch contains the defected region:  <br /> 5.     output the input and the missing part  <br /> 6. scan complete <br /> 7. patch stitched together <br /> 8. output: completed skull  | ![example](https://github.com/li-jianning/patch-based-skull-completion/blob/master/images/patch-wise.gif)   |
-
-
 ```
 1. scan the entire skull in a (3D) patch-wise manner
 2. if patch contains no defected region:
