@@ -15,9 +15,6 @@ The deep learning model is trained to perform the following actions:
 5.     output the input and the missing part      
 ```
 
-The deep learning model scans the entire skull in a (3D) patch-wise manner. When the 3D patch contains no defected region, the model simply reconstructs/reproduces the input patch. When the patch contains the defected region (e.g., the middle four patches), the model reproduces the input patch while at the same time filling the hole. The output is the same skull with the hole filled. The skull shape completion algorithm is integrated in a web-interfaced cloud platform [Studierfenster](http://studierfenster.tugraz.at/), and can be tried out interactively. A [Youtube video](https://www.youtube.com/watch?v=pt-jw8nXzgs&feature=youtu.be) is also provided as a tutorial to the usage of the platform. 
-
-
 ![example](https://github.com/li-jianning/patch-based-skull-completion/blob/master/images/patch-wise.gif)
 
 
