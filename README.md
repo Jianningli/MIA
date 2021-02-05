@@ -3,7 +3,7 @@
 |:-------------------------:|:-------------------------:|
 |[![Studierfenster](https://github.com/Jianningli/MIA/blob/add-license-1/images/website.PNG)](http://studierfenster.icg.tugraz.at/ "Studierfenster")  |  [![Skull Shape Reconstruction](https://github.com/Jianningli/MIA/blob/add-license-1/images/youtube.PNG)](https://www.youtube.com/watch?v=pt-jw8nXzgs&feature=youtu.be "Skull Shape Reconstruction")|
 
-* ## patch-wise skull completion
+ ## patch-wise skull completion
 
 The deep learning model is trained to perform the following actions:
 
@@ -21,7 +21,7 @@ The deep learning model is trained to perform the following actions:
 ![example](https://github.com/li-jianning/patch-based-skull-completion/blob/master/images/patch-wise.gif)
 
 
-* ## patch-wise direct implant generation
+## patch-wise direct implant generation
 The missing part (i.e., the implant) can also be predicted directly without reconstructing the original skull, if the deep learning models are trained with the implants as output.
 
 ```
