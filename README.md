@@ -38,8 +38,9 @@ The missing part (i.e., the implant) can also be predicted directly without reco
 ![example](https://github.com/li-jianning/patch-based-skull-completion/blob/master/images/patch-wise-implant.gif)
 
 
-* ## interpretation of learnt features for volumetric shape completion
+## interpretation of learnt features for volumetric shape completion
 For better visualization, the 3D patch as well as the 3D feature maps are projected into a 2D plane.
-The features learnt by a deep learning model for the volumetric shape completion task are interpretable and consistent/stable. 
+We observe that the features learnt by a deep learning model for the volumetric shape completion task are interpretable and consistent/stable. 
+The good interpretibility is large due to the <em>lightweight</em> nature (binary, sparse) of the skull data. 
 
 ![example](https://github.com/li-jianning/patch-based-skull-completion/blob/master/images/features.png)
