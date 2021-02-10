@@ -1,6 +1,7 @@
  ## A client-server based web application for automatic implant generation ([Project page](http://jianningli.me/autoCranialImp))
 
 | Demo Site|Youtube Tutorial|
+| ------      | ------ |
 |[![Studierfenster](https://github.com/Jianningli/MIA/blob/add-license-1/images/website.PNG)](http://studierfenster.icg.tugraz.at/ "Studierfenster")  |  [![Skull Shape Reconstruction](https://github.com/Jianningli/MIA/blob/add-license-1/images/youtube.PNG)](https://www.youtube.com/watch?v=pt-jw8nXzgs&feature=youtu.be "Skull Shape Reconstruction")|
 
 
