@@ -4,6 +4,15 @@
 |       ------      | ------             |
 |[![Studierfenster](https://github.com/Jianningli/MIA/blob/add-license-1/images/website.PNG)](http://studierfenster.icg.tugraz.at/ "Studierfenster")  |  [![Skull Shape Reconstruction](https://github.com/Jianningli/MIA/blob/add-license-1/images/youtube.PNG)](https://www.youtube.com/watch?v=pt-jw8nXzgs&feature=youtu.be "Skull Shape Reconstruction")|
 
+<table>
+  <tr>
+    <td>[![Studierfenster](https://github.com/Jianningli/MIA/blob/add-license-1/images/website.PNG)](http://studierfenster.icg.tugraz.at/ "Studierfenster")</td>
+    <td>[![Skull Shape Reconstruction](https://github.com/Jianningli/MIA/blob/add-license-1/images/youtube.PNG)](https://www.youtube.com/watch?v=pt-jw8nXzgs&feature=youtu.be "Skull Shape Reconstruction")</td>
+  </tr>
+  <tr>
+    <td colspan="2">[Project page](http://jianningli.me/autoCranialImp)</td>
+  </tr>
+</table>
 
 
  ## patch-wise skull shape completion
