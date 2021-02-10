@@ -1,4 +1,4 @@
- # A client-server based web application for automatic implant generation ([Project page](http://jianningli.me/autoCranialImp))
+ ### A client-server based web application for automatic implant generation ([Project page](http://jianningli.me/autoCranialImp))
 
 | Demo Site|Youtube Tutorial|
 | ------      | ------ |
