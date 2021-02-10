@@ -1,4 +1,4 @@
- ## A client-server based web application for implant generation
+ ## A client-server based web application for automatic implant generation
 
 |Demo [[Paper](https://arxiv.org/abs/2006.00980)]       |  Youtube Tutorial      |
 |:-------------------------:|:-------------------------:|
