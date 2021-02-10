@@ -1,22 +1,10 @@
- ## A client-server based web application for automatic implant generation
+ ## A client-server based web application for automatic implant generation ([Project page](http://jianningli.me/autoCranialImp))
 
-| <td colspan="2">[Project page](http://jianningli.me/autoCranialImp)</td> ||
+| Demo Site|Youtube Tutorial|
 |       ------      | ------             |
 |[![Studierfenster](https://github.com/Jianningli/MIA/blob/add-license-1/images/website.PNG)](http://studierfenster.icg.tugraz.at/ "Studierfenster")  |  [![Skull Shape Reconstruction](https://github.com/Jianningli/MIA/blob/add-license-1/images/youtube.PNG)](https://www.youtube.com/watch?v=pt-jw8nXzgs&feature=youtu.be "Skull Shape Reconstruction")|
 
-<table>
-  <tr>
-    <td>[![Studierfenster](https://github.com/Jianningli/MIA/blob/add-license-1/images/website.PNG)](http://studierfenster.icg.tugraz.at/ "Studierfenster")</td>
-    <td>[![Skull Shape Reconstruction](https://github.com/Jianningli/MIA/blob/add-license-1/images/youtube.PNG)](https://www.youtube.com/watch?v=pt-jw8nXzgs&feature=youtu.be "Skull Shape Reconstruction")</td>
-  </tr>
-  <tr>
-    <td colspan="2">[Project page](http://jianningli.me/autoCranialImp)</td>
-  </tr>
-</table>
 
-| One    | Two | Three | Four    | Five  | Six 
-| -
-| Span <td colspan=3>triple  <td colspan=2>double
 
  ## patch-wise skull shape completion
 
