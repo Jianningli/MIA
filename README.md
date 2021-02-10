@@ -23,7 +23,7 @@ The deep learning model is trained to perform the following actions:
 
 
 ## patch-wise direct implant generation
-The missing part (i.e., the implant) can also be predicted directly without reconstructing the original skull, if the deep learning models are trained with the implants as output.
+The missing part (i.e., the implant) can also be predicted directly without reconstructing the original skull, if the deep learning models are trained with the implants as the ground truth.
 
 ```
 1. scan the entire skull in a (3D) patch-wise manner
