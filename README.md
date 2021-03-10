@@ -1,4 +1,6 @@
- ### A client-server based web application for automatic implant generation ([Project page](http://jianningli.me/autoCranialImp))
+Appendix Information can be found [HERE](https://github.com/Jianningli/MIA/tree/add-license-1/source)
+
+### A client-server based web application for automatic implant generation ([Project page](http://jianningli.me/autoCranialImp))
 
 | Demo Site|Youtube Tutorial|
 | ------      | ------ |
