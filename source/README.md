@@ -23,8 +23,8 @@ the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https
 
 
 | Codes|File|Trained Model|
-| ------      | ------ |
+| ------      | ------ | ------ |
 | boundaryloss [1] |EncoderDecoder_boundaryloss.py | [boundaryloss.h5](https://files.icg.tugraz.at/f/774c9d3adca04dcebecf/?dl=1)|
-|  |  |
-|  |  |
-|  |  |
+|  |  ||
+|  |  ||
+|  |  ||
