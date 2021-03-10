@@ -30,6 +30,8 @@ the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https
 | MSE+boundaryloss  |  ||
 |DICE+boundaryloss  |  ||
 
+
+Keras version of DICE Loss ([sources](https://github.com/keras-team/keras/issues/3611))
 ```python
 def dice_coef(y_true, y_pred, smooth=1):
     y_true_f = K.flatten(y_true)
