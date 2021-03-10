@@ -25,6 +25,7 @@ the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https
 | Codes|File|Trained Model|
 | ------      | ------ | ------ |
 | [boundaryloss](https://www.sciencedirect.com/science/article/pii/S1361841520302152?via%3Dihub) |EncoderDecoder_boundaryloss.py | [boundaryloss.h5](https://files.icg.tugraz.at/f/774c9d3adca04dcebecf/?dl=1)|
-|  |  ||
-|  |  ||
-|  |  ||
+| MSE |  ||
+| DICE |  ||
+| MSE+boundaryloss  |  ||
+|DICE+boundaryloss  |  ||
