@@ -8,6 +8,7 @@ the GAN implementation is adapted from [@Fdevmsy/3D_shape_inpainting](https://gi
 | AE | EncoderDecoder.py|[encoderdecoder.h5](https://files.icg.tugraz.at/f/9e5473d9d1ca4287bdf7/?dl=1)| - |
 
 
+
 ### Boundary (Surface) Constrained Loss Function for Volumetric Shape Completion
 the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https://github.com/LIVIAETS/boundary-loss). All credits go to the original author(s). 
 
