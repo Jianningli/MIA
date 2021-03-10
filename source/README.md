@@ -1,4 +1,4 @@
-# Generative Adversarial Network for Cranial Implant Generation
+### Generative Adversarial Network for Cranial Implant Generation
 
 | Codes|Trained Model|
 | ------      | ------ |
@@ -7,7 +7,7 @@
 |  |  |
 |  |  |
 
-# Boundary (Surface) Constrained Loss Function for Volumetric Shape Completion
+### Boundary (Surface) Constrained Loss Function for Volumetric Shape Completion
 
 | axial| sagittal| coronal|
 | ------      | ------ | ------ |
@@ -16,3 +16,10 @@
 
 
 
+
+| Codes|Trained Model|
+| ------      | ------ |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
