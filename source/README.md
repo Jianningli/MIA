@@ -30,7 +30,7 @@ the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https
 | MSE+boundaryloss  |  ||
 |DICE+boundaryloss  |  ||
 
-```
+```python
 def dice_coef(y_true, y_pred, smooth=1):
     y_true_f = K.flatten(y_true)
     y_pred_f = K.flatten(y_pred)
