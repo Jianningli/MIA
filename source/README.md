@@ -1,5 +1,5 @@
 ### Generative Adversarial Network (GAN) for Cranial Implant Generation
-the GAN implementation is adapted from [@Fdevmsy/3D_shape_inpainting](https://github.com/Fdevmsy/3D_shape_inpainting). All credits go to the original author(s). 
+the GAN implementation is adapted from [@Fdevmsy/3D_shape_inpainting](https://github.com/Fdevmsy/3D_shape_inpainting).
 
 
 | Codes|File| Generator|discriminator|
@@ -10,7 +10,7 @@ the GAN implementation is adapted from [@Fdevmsy/3D_shape_inpainting](https://gi
 
 
 ### Boundary (Surface) Constrained Loss Function for Volumetric Shape Completion
-the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https://github.com/LIVIAETS/boundary-loss). All credits go to the original author(s). 
+the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https://github.com/LIVIAETS/boundary-loss).
 
 
 #### Euclidean Distance Transform (EDT) of a ground truth implant, viewed in axial, sagittal and coronal plane:
