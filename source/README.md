@@ -12,7 +12,7 @@ the GAN implementation is adapted from [@Fdevmsy/3D_shape_inpainting](https://gi
 the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https://github.com/LIVIAETS/boundary-loss). All credits go to the original author(s). 
 
 
-Euclidean Distance Transform (EDT) of a ground truth implant, viewed in axial, sagittal and coronal plane.
+####Euclidean Distance Transform (EDT) of a ground truth implant, viewed in axial, sagittal and coronal plane:
 | axial| sagittal| coronal|
 | ------      | ------ | ------ |
 | ![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/axial.gif) |![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/sagittal.gif)|![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/coronal.gif)|
