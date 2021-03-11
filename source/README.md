@@ -35,6 +35,7 @@ the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https
 ```python
 python filename.py
 ```
+> Version related issues derived from Tensorflow, keras, python and cuda are always trouble-makers   
 
 Keras version of DICE Loss ([sources](https://github.com/keras-team/keras/issues/3611))
 ```python
