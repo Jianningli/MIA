@@ -19,6 +19,7 @@ the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https
 | axial| sagittal| coronal|
 | ------      | ------ | ------ |
 | ![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/axial.gif) |![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/sagittal.gif)|![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/coronal.gif)|
+|![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/snapshot0001.png)|![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/snapshot0002.png)|![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/snapshot0003.png)|
 
 
 
