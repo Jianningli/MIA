@@ -32,6 +32,9 @@ the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https
 | MSE+boundaryloss  |  ||
 |DICE+boundaryloss  |  ||
 
+```python
+python filename.py
+```
 
 Keras version of DICE Loss ([sources](https://github.com/keras-team/keras/issues/3611))
 ```python
