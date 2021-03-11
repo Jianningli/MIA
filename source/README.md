@@ -35,7 +35,7 @@ the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https
 ```python
 python filename.py
 ```
-> Version related issues derived from Tensorflow, keras, python and cuda are always trouble-makers   
+> Version related issues derived from Tensorflow, keras, python and cuda are always trouble-makers. I was using a less advanced GPU that is compatible only with an older version of cuda, which does not support Tensorflow 2.0 and above. However, EncoderDecoder_dice_boundary_loss.py contains codes that work only on Tensorflow 2.X and therefore the model was trained on CPU, which is extremely slow...     
 
 Keras version of DICE Loss ([sources](https://github.com/keras-team/keras/issues/3611))
 ```python
