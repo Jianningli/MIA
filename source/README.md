@@ -21,7 +21,6 @@ the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https
 | axial| sagittal| coronal|3D|
 | ------      | ------ | ------ |------ |
 | ![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/assets/axial.gif) |![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/assets/sagittal.gif)|![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/assets/coronal.gif)|![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/assets/3DEDT.png)|
-
 |![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/assets/snapshot0001.png)|![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/assets/snapshot0002.png)|![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/assets/snapshot0003.png)|![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/assets/3DIMP.png)|
 
 
