@@ -51,10 +51,7 @@ The good interpretibility is large due to the <em>lightweight</em> nature (binar
 ![example](https://github.com/Jianningli/MIA/blob/add-license-1/images/features.png)
 
 ## Contact
-
-Jianning Li </br >
-
-jianningli.me[at]gmail[dot]com
+Jianning Li (jianningli.me[at]gmail[dot]com)
 
 
 
