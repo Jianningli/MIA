@@ -71,8 +71,6 @@ def surface_loss_keras(y_true, y_pred):
     return K.mean(multipled)
 
 
-#[4,128,128,64,1]
-
 def dice_coef(y_true, y_pred, smooth=1e-6):
     y_true_f = K.flatten(y_true)
     y_pred_f = K.flatten(y_pred)
