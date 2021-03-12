@@ -51,6 +51,45 @@ def dice_coef(y_true, y_pred, smooth=1e-6):
 def dice_coef_loss(y_true, y_pred):
     return -100*dice_coef(y_true, y_pred)
 ```
+Dice loss constrained by boundary loss (keras version)
+```python
+def calc_dist_map(seg):
+    res = np.zeros_like(seg)
+    posmask = seg.astype(np.bool)
+
+    if posmask.any():
+        negmask = ~posmask
+        res = distance(negmask) * negmask - (distance(posmask) - 1) * posmask
+
+    return res
+
+
+def surface_loss_keras(y_true, y_pred):
+    y_true = y_true.numpy()
+    gt_dist_transform=np.array([calc_dist_map(y) for y in y_true]).astype(np.float32) 
+    multipled = y_pred * gt_dist_transform
+    return K.mean(multipled)
+
+
+#[4,128,128,64,1]
+
+def dice_coef(y_true, y_pred, smooth=1e-6):
+    y_true_f = K.flatten(y_true)
+    y_pred_f = K.flatten(y_pred)
+    intersection = K.sum(y_true_f * y_pred_f)
+    return (2. * intersection + smooth) / (K.sum(y_true_f) + K.sum(y_pred_f) + smooth)
+
+def dice_coef_loss(y_true, y_pred):
+    return -dice_coef(y_true, y_pred)
+
+def dice_boundary_loss(y_true,y_pred):
+    loss1=surface_loss_keras(y_true,y_pred)
+    loss2=dice_coef_loss(y_true,y_pred)
+    finalloss=loss1 + 100*loss2
+    return finalloss
+```
+
+
 
 ## Contact
 Jianning Li (jianningli.me [at] gmail [dot] com)
