@@ -52,8 +52,9 @@ The good interpretibility is large due to the <em>lightweight</em> nature (binar
 
 ## Contact
 
-Jianning Li
-jianningli.me [at] gmail [dot] com
+Jianning Li </br >
+
+[jianningli.me [at] gmail [dot] com](mainto:jianningli.me@gmail.com)
 
 
 
