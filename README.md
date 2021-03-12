@@ -49,3 +49,11 @@ We observe that the features learnt by a deep learning model for the volumetric 
 The good interpretibility is large due to the <em>lightweight</em> nature (binary, sparse) of the skull data. 
 
 ![example](https://github.com/Jianningli/MIA/blob/add-license-1/images/features.png)
+
+## Contact
+
+Jianning Li
+jianningli.me [at] gmail [dot] com
+
+
+
