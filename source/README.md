@@ -41,7 +41,7 @@ python filename.py
 
 Keras version of DICE Loss ([sources](https://github.com/keras-team/keras/issues/3611))
 ```python
-def dice_coef(y_true, y_pred, smooth=1):
+def dice_coef(y_true, y_pred, smooth=1e-6):
     y_true_f = K.flatten(y_true)
     y_pred_f = K.flatten(y_pred)
     intersection = K.sum(y_true_f * y_pred_f)
