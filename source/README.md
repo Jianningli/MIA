@@ -87,7 +87,7 @@ def dice_boundary_loss(y_true,y_pred):
     return finalloss
 ```
 
-
+![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/assets/boundaryconvergence.png)
 
 ## Contact
 Jianning Li (jianningli.me [at] gmail [dot] com)
