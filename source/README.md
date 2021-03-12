@@ -1,6 +1,7 @@
 ### Generative Adversarial Network (GAN) for Cranial Implant Generation ([generator](https://dl.dropboxusercontent.com/s/5tj6r8wgvxc4p8o/generator.txt?dl=0), [discriminator](https://dl.dropboxusercontent.com/s/30fhk8t34csp1m9/discriminator.txt?dl=0))
 the GAN implementation is adapted from [@Fdevmsy/3D_shape_inpainting](https://github.com/Fdevmsy/3D_shape_inpainting).
 
+![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/assets/gan_results.png)
 
 | Network|Codes| Generator|discriminator|
 | ------      | ------ | ------ | ------ |
