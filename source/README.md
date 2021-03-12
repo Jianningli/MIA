@@ -37,7 +37,7 @@ the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https
 ```python
 python filename.py
 ```
-> Version related issues derived from Tensorflow, keras, python and cuda are always trouble-makers. I was using a less advanced GPU that is compatible only with an older version of cuda, which does not support newer version of Tensorflow. However, EncoderDecoder_dice_boundary_loss.py contains codes that work only on Tensorflow 1.8 and above and therefore the model was trained on CPU, which is extremely slow...     
+> Note: for EncoderDecoder_boundaryloss.py, the EDT is computed during the data loading phase, which is compatible with numpy operations. For MSE+boundaryloss and DICE+boundaryloss, the EDT has to be computed within the tensorflow graph, which does not support numpy operations. tensor.numpy() can be used to convert a tensor to a normal python numpy array. To execute numpy arrays within graph, the eager execution mode has to be enabled, which is supported by Tensorflow 1.8 and above. For Tensorflow 2.X, the mode is enabled by default.      
 
 Keras version of DICE Loss ([sources](https://github.com/keras-team/keras/issues/3611))
 ```python
