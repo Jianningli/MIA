@@ -51,7 +51,7 @@ def dice_coef(y_true, y_pred, smooth=1e-6):
 def dice_coef_loss(y_true, y_pred):
     return -100*dice_coef(y_true, y_pred)
 ```
-Dice loss constrained by [boundary loss]((https://github.com/LIVIAETS/boundary-loss)) (keras version)
+Dice loss constrained by [boundary loss]((https://github.com/LIVIAETS/boundary-loss) (keras version)
 ```python
 def calc_dist_map(seg):
     res = np.zeros_like(seg)
