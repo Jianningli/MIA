@@ -54,7 +54,7 @@ The good interpretibility is large due to the <em>lightweight</em> nature (binar
 
 Jianning Li </br >
 
-[jianningli.me [at] gmail [dot] com](mainto:jianningli.me@gmail.com)
+jianningli.me[at]gmail[dot]com
 
 
 
