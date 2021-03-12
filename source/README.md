@@ -1,5 +1,5 @@
 ### Generative Adversarial Network (GAN) for Cranial Implant Generation
-the GAN implementation is adapted from [@Fdevmsy/3D_shape_inpainting](https://github.com/Fdevmsy/3D_shape_inpainting).
+the GAN implementation is adapted from [@Fdevmsy/3D_shape_inpainting](https://github.com/Fdevmsy/3D_shape_inpainting) ([generator](https://dl.dropboxusercontent.com/s/5tj6r8wgvxc4p8o/generator.txt?dl=0), [discriminator](https://dl.dropboxusercontent.com/s/30fhk8t34csp1m9/discriminator.txt?dl=0)).
 
 
 | Codes|File| Generator|discriminator|
@@ -12,7 +12,7 @@ the GAN implementation is adapted from [@Fdevmsy/3D_shape_inpainting](https://gi
 python filename.py
 ```
 
-### Boundary (Surface) Constrained Loss Function for Volumetric Shape Completion
+### Boundary (Surface) Constrained Loss Function for Volumetric Shape Completion ([auto-encoder (AE)](https://dl.dropboxusercontent.com/s/5tj6r8wgvxc4p8o/generator.txt?dl=0))
 the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https://github.com/LIVIAETS/boundary-loss).
 
 
