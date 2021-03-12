@@ -52,3 +52,5 @@ def dice_coef_loss(y_true, y_pred):
     return -100*dice_coef(y_true, y_pred)
 ```
 
+## Contact
+Jianning Li (jianningli.me [at] gmail [dot] com)
