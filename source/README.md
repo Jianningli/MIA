@@ -86,6 +86,19 @@ def dice_boundary_loss(y_true,y_pred):
     finalloss=loss1 + 100*loss2
     return finalloss
 ```
+MSE loss and boundary loss (keras)
+```python
+def mse_loss(y_true, y_pred):
+    mse=tf.keras.losses.MeanSquaredError()
+    return mse(y_true,y_pred)
+
+def mse_boundary_loss(y_true,y_pred):
+    loss1=surface_loss_keras(y_true,y_pred)
+    loss2=mse_loss(y_true,y_pred)
+    finalloss=loss1 + 100*loss2
+    return finalloss
+```
+
 The convergence mode of a network when trained with the boundary loss (arrow indicates the change direction of the network's output):  
 
 ![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/assets/boundaryconvergence.png)
