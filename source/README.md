@@ -86,6 +86,7 @@ def dice_boundary_loss(y_true,y_pred):
     finalloss=loss1 + 100*loss2
     return finalloss
 ```
+The convergence mode of a network when trained with the boundary loss (arrow indicate the change direction of the network's output):  
 
 ![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/assets/boundaryconvergence.png)
 
