@@ -32,7 +32,7 @@ the boundary loss implementation is adapted from [@LIVIAETS/boundary-loss](https
 | [boundaryloss](https://www.sciencedirect.com/science/article/pii/S1361841520302152?via%3Dihub) |EncoderDecoder_boundaryloss.py | [boundaryloss.h5](https://files.icg.tugraz.at/f/774c9d3adca04dcebecf/?dl=1)|
 | MSE | EncoderDecoder.py  |[encoderdecoder.h5](https://files.icg.tugraz.at/f/9e5473d9d1ca4287bdf7/?dl=1)|
 | DICE | EncoderDecoder_diceloss.py |[diceloss.h5](https://files.icg.tugraz.at/f/2b455ed99bd442fbbeaf/?dl=1)|
-| MSE+boundaryloss  |   ||
+| MSE+boundaryloss  | EncoderDecoder_mse_boundary_loss.py  |[mse_boundary_loss.h5](https://files.icg.tugraz.at/f/f5d0f815fb1249dbabe1/?dl=1)|
 |DICE+boundaryloss  | EncoderDecoder_dice_boundary_loss.py <br /> EncoderDecoder_dice_boundary_loss_test.py |[dice_boundary_loss.h5](https://files.icg.tugraz.at/f/1a256d22dd3543809ec8/?dl=1)|
 
 ```python
