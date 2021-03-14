@@ -7,7 +7,7 @@ the GAN implementation is adapted from [@Fdevmsy/3D_shape_inpainting](https://gi
 | ------      | ------ | ------ | ------ |
 | GAN | EncoderDecoderGAN3D.py |[generator.h5](https://files.icg.tugraz.at/f/9d5ee3d750294301b1c4/?dl=1)| [discriminator.h5](https://files.icg.tugraz.at/f/c83cf7be4d4246faa137/?dl=1)|
 | AE | EncoderDecoder.py|[encoderdecoder.h5](https://files.icg.tugraz.at/f/9e5473d9d1ca4287bdf7/?dl=1)| - |
-| AE (-n) | EncoderDecoder_patch.py|| - |
+| AE (-n) | EncoderDecoder_patch.py|[autoencoder_patch.h5](https://files.icg.tugraz.at/f/6007e933788147cb920d/?dl=1)| - |
 
 ```python
 python filename.py
