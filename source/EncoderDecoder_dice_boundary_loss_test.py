@@ -21,11 +21,9 @@ from tensorflow.keras import backend as K
 from scipy.ndimage import distance_transform_edt as distance
 
 
-''' Boundary loss function  adapted from https://github.com/LIVIAETS/boundary-loss.
+''' Boundary loss function adapted from https://github.com/LIVIAETS/boundary-loss.
     Credit goes to the original authors
 '''
-
-
 
 
 def calc_dist_map(seg):
@@ -44,7 +42,6 @@ def surface_loss_keras(y_true, y_pred):
     gt_dist_transform=np.array([calc_dist_map(y) for y in y_true]).astype(np.float32) 
     multipled = y_pred * gt_dist_transform
     return K.mean(multipled)
-
 
 
 def dice_coef(y_true, y_pred, smooth=1e-6):
@@ -67,6 +64,7 @@ def build_generator():
 
     model = Sequential()
 
+    # Encoder
     model.add(Conv3D(32, kernel_size=5, strides=2, input_shape=vol_shape, padding="same"))
     model.add(LeakyReLU(alpha=0.2))
     model.add(BatchNormalization(momentum=0.8))
@@ -80,6 +78,7 @@ def build_generator():
     model.add(LeakyReLU(alpha=0.2))
     model.add(Dropout(0.5))
 
+    # Decoder
     model.add(UpSampling3D())
     model.add(Deconv3D(256, kernel_size=5, padding="same"))
     model.add(Activation('relu'))
@@ -144,6 +143,7 @@ def train(generator,MODEL_DIR, epochs, batch_size=16, sample_interval=50):
         print('masked_vols:',masked_vols.shape)
         print('missing_parts:',missing_parts.shape)
 
+        # Train Generator
         g_loss = generator.train_on_batch(masked_vols, missing_parts)
         print(g_loss)
         if epoch % sample_interval == 0:
@@ -161,7 +161,7 @@ def evaluate(testdir,test_results_dir):
         data=data[:,:,data.shape[2]-128:data.shape[2]]
         data=resizing(data)
         data=np.expand_dims(np.expand_dims(data,axis=0),axis=4)
-        gen_missing = generator.predict(data)
+        gen_missing = generator.predict(np.float32(data))
 
         gen_missing=(gen_missing>0.5)
         gen_missing=gen_missing+1-1
@@ -174,7 +174,6 @@ def evaluate(testdir,test_results_dir):
 
 
 if __name__ == '__main__':
-    print(tf.executing_eagerly())
     vol_rows = 128
     vol_cols = 128
     vol_height = 64
@@ -185,9 +184,15 @@ if __name__ == '__main__':
     num_classes = 2
     vol_shape = (vol_rows, vol_cols, vol_height, channels)
     missing_shape = (mask_height, mask_width, mask_length, channels)
-    MODEL_DIR = '../dice_boundary_loss'
+    test_dir="D:/skull-volume/testing_data_folder/newtestdata-defect/middle-middle"
+    test_results_dir="D:/skull-volume/testing_data_folder/newtestdata-defect/middle-middle/results_ae_dice_boundary_loss/"
+    MODEL_DIR = './32_cube/saved_model/dice_boundary_loss'
     generator = build_generator()
     optimizer = Adam(0.0002, 0.5)
     generator.compile(loss=dice_boundary_loss,optimizer=optimizer,run_eagerly=True)
+    generator.load_weights('../dice_boundary_loss.h5')
+    print("Loaded checkpoints")
     masked_vol = Input(shape=vol_shape)
-    train(generator,MODEL_DIR,epochs=3000, batch_size=4, sample_interval=200)
+    evaluate(test_dir,test_results_dir)
+
+
