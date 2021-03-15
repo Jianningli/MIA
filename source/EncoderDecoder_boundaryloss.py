@@ -22,7 +22,9 @@ from scipy.ndimage import distance_transform_edt as distance
 
 
 
-
+''' Boundary loss function  adapted from https://github.com/LIVIAETS/boundary-loss.
+    Credit goes to the original authors
+'''
 
 
 
