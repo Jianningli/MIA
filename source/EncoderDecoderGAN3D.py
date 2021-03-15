@@ -23,7 +23,7 @@ MODEL_DIR = './32_cube/saved_model'
 
 
 
-''' Boundary loss function  adapted from https://github.com/Fdevmsy/3D_shape_inpainting.
+''' Codes adapted from https://github.com/Fdevmsy/3D_shape_inpainting.
     Credit goes to the original authors
 '''
 
