@@ -103,5 +103,7 @@ The convergence mode of a network when trained with the boundary loss (arrow ind
 
 ![alt text](https://github.com/Jianningli/MIA/blob/add-license-1/source/assets/boundaryconvergence.png)
 
+> Note: It was found that training using the boundary loss tend to result in over-segmentation, while other loss function can usually under-segment. The weight coefficient (hyper-parameter) between the two losses has to be carefully chosen (through experiments) in order to achieve an optimal training result.   
+
 ## Contact
 Jianning Li (jianningli.me [at] gmail [dot] com)
