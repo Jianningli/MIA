@@ -50,6 +50,23 @@ The good interpretibility is large due to the <em>lightweight</em> nature (binar
 
 ![example](https://github.com/Jianningli/MIA/blob/add-license-1/images/features.png)
 
+
+### Reference
+
+If you find our repository useful or use the codes for your research, please use the following bibtex entry for reference of our work:
+
+```
+@article{li2021automatic,
+  title={Automatic Skull Defect Restoration and Cranial Implant Generation for Cranioplasty},
+  author={Li, Jianning and von Campe, Gord and Pepe, Antonio and Gsaxner, Christina and Wang, Enpeng and Chen, Xiaojun and Zefferer, Ulrike and T{\"o}dtling, Martin and Krall,     Marcell and Deutschmann, Hannes and others},
+  journal={Medical Image Analysis},
+  pages={102171},
+  year={2021},
+  publisher={Elsevier}
+}
+```
+
+
 ## Contact
 Jianning Li (jianningli.me [at] gmail [dot] com)
 
