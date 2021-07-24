@@ -105,5 +105,19 @@ The convergence mode of a network when trained with the boundary loss (arrow ind
 
 > Note: It was found that training an auto-encoder using the boundary loss tends to result in over-segmentation, while other loss function can usually under-segment. The weight coefficient (hyper-parameter Lambda) between the two losses (L=L_dice + Lambda*L_boundary) has to be carefully chosen (through experiments) in order to achieve an optimal training result.   
 
+If you find our repository useful or use the codes for your research, please use the following bibtex entry for reference of our work:
+
+```
+@article{li2021automatic,
+  title={Automatic Skull Defect Restoration and Cranial Implant Generation for Cranioplasty},
+  author={Li, Jianning and von Campe, Gord and Pepe, Antonio and Gsaxner, Christina and Wang, Enpeng and Chen, Xiaojun and Zefferer, Ulrike and T{\"o}dtling, Martin and Krall,     Marcell and Deutschmann, Hannes and others},
+  journal={Medical Image Analysis},
+  pages={102171},
+  year={2021},
+  publisher={Elsevier}
+}
+```
+
+
 ## Contact
 Jianning Li (jianningli.me [at] gmail [dot] com)
