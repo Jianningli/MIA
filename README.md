@@ -1,3 +1,6 @@
+Repository for the paper titled 'Automatic Skull Defect Restoration and Cranial Implant Generation for Cranioplasty' [[Bibtex](https://dl.dropboxusercontent.com/s/kdxyjbegma9iwv0/bibtex1.txt?dl=0)][[paper](https://doi.org/10.1016/j.media.2021.102171)]
+
+
 ## Appendix Information can be found [HERE](https://github.com/Jianningli/MIA/tree/add-license-1/source)
 
 ### A client-server based web application for automatic implant generation ([Project page](http://jianningli.me/autoCranialImp))
